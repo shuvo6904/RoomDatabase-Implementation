@@ -7,5 +7,5 @@ import androidx.room.Insert
 interface ContactDao {
 
     @Insert
-    suspend fun insertContact(contact : Contact)
+    fun insertContact(contact : Contact)
 }
